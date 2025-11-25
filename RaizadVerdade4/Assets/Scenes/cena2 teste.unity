@@ -252,7 +252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125, y: 48}
+  m_AnchoredPosition: {x: -217, y: -59}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &154677418
@@ -540,7 +540,6 @@ GameObject:
   - component: {fileID: 262807093}
   - component: {fileID: 262807092}
   - component: {fileID: 262807094}
-  - component: {fileID: 262807095}
   m_Layer: 0
   m_Name: Sprite3
   m_TagString: Untagged
@@ -676,25 +675,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: 
-  alternativa1: 
-  alternativa2: 
-  respostaCorreta: 0
---- !u!114 &262807095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262807090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pergunta: 
-  alternativa1: 
-  alternativa2: 
+  pergunta: "Que cor \xE9 o c\xE9u?"
+  alternativa1: Azul
+  alternativa2: Verde
   respostaCorreta: 0
 --- !u!1 &347187516
 GameObject:
@@ -1269,7 +1252,6 @@ GameObject:
   - component: {fileID: 1172674596}
   - component: {fileID: 1172674598}
   - component: {fileID: 1172674599}
-  - component: {fileID: 1172674600}
   m_Layer: 0
   m_Name: Sprite2
   m_TagString: Untagged
@@ -1441,26 +1423,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: 
-  alternativa1: 
-  alternativa2: 
-  respostaCorreta: 0
---- !u!114 &1172674600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172674594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pergunta: 
-  alternativa1: 
-  alternativa2: 
-  respostaCorreta: 0
+  pergunta: "Qual \xE9 a capital do Brasil"
+  alternativa1: "S\xE3o Paulo"
+  alternativa2: Brasilia
+  respostaCorreta: 1
 --- !u!1 &1178491022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,8 +1463,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -124.4154, y: 80.262}
-  m_SizeDelta: {x: 161.1693, y: 40.524}
+  m_AnchoredPosition: {x: -124.99999, y: 34.131004}
+  m_SizeDelta: {x: 161.1693, y: 68.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178491024
 MonoBehaviour:
@@ -1758,8 +1724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331.66144, y: 80.26178}
-  m_SizeDelta: {x: 164.6772, y: 40.5236}
+  m_AnchoredPosition: {x: -335, y: 34.131}
+  m_SizeDelta: {x: 164.6772, y: 68.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793201982
 MonoBehaviour:
@@ -1867,7 +1833,6 @@ GameObject:
   - component: {fileID: 1870316936}
   - component: {fileID: 1870316935}
   - component: {fileID: 1870316937}
-  - component: {fileID: 1870316938}
   m_Layer: 0
   m_Name: Sprite1
   m_TagString: Untagged
@@ -2003,26 +1968,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: 
-  alternativa1: 
-  alternativa2: 
-  respostaCorreta: 0
---- !u!114 &1870316938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870316933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pergunta: 
-  alternativa1: 
-  alternativa2: 
-  respostaCorreta: 0
+  pergunta: "Quanto \xE9  2 + 2?"
+  alternativa1: 2
+  alternativa2: 4
+  respostaCorreta: 1
 --- !u!1 &1982435088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,8 +2105,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -239.64226, y: 148.41534}
-  m_SizeDelta: {x: 370.7155, y: 51.1693}
+  m_AnchoredPosition: {x: -146.81378, y: 147.36642}
+  m_SizeDelta: {x: 556.3725, y: 53.2671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2113668864
 GameObject:
