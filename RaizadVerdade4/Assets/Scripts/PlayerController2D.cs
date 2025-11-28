@@ -1,39 +1,63 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-
-[RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController2D : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    public float speed = 5f;
-    public float jumpForce = 7f;
-    Rigidbody2D rb;
-    SpriteRenderer sr;
+    private Transform _transform;
+    private Rigidbody2D _rigidbody2D;
 
+    public float velocidade = 10f;
+    public float forcaPulo = 10f;
 
-    void Awake()
+    private bool noChao = false;
+
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
+        _transform = gameObject.transform;
+        _rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
     }
 
 
+    void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("chao")) //if (other.tag == "chao")
+        {
+            noChao = true;
+        }
+    }
+
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("chao")) //if (other.tag == "chao")
+        {
+            noChao = false;
+        }
+    }
+
     void Update()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        Vector2 vel = rb.linearVelocity;
-        vel.x = h * speed;
-        rb.linearVelocity = vel;
 
+        Debug.Log("No Chao: " + noChao);
 
-        // Flip sprite
-        if (h > 0.1f) sr.flipX = false;
-        else if (h < -0.1f) sr.flipX = true;
-
-
-        // Pulo simples (assume Ground check external ou permitido sempre):
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            _transform.position -= new Vector3(velocidade * Time.deltaTime, 0, 0);
+            Debug.Log("LeftArrow");
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            _transform.position += new Vector3(velocidade * Time.deltaTime, 0, 0);
+            Debug.Log("RightArrow");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && noChao == true)
+        {
+            // forcaPulo
+            _rigidbody2D.AddForce(new Vector2(0, forcaPulo), ForceMode2D.Impulse);
         }
     }
 }
