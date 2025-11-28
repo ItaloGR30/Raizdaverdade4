@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c75dad2f0334d1f41b99b499d8b93c41
+guid: 12152c55d5b2f9246a91f304a2900260
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8410906248179616708
-    second: Acid (2)_0
+      213: 2361336497627440670
+    second: Captura de tela 2025-11-28 151956_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Acid (2)_0
+      name: Captura de tela 2025-11-28 151956_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 340
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cb0cd97baa89b470800000000000000
-      internalID: 8410906248179616708
+      spriteID: e16af30a80725c020800000000000000
+      internalID: 2361336497627440670
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Acid (2)_0: 8410906248179616708
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
