@@ -2210,8 +2210,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 987a05904af02cb4a99ed098b17796c5, type: 2}
+  m_sharedMaterial: {fileID: -8316476948821240386, guid: 987a05904af02cb4a99ed098b17796c5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2303,7 +2303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217, y: -59}
+  m_AnchoredPosition: {x: -3, y: -113}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &143978792
@@ -2912,6 +2912,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1630218945}
+  - {fileID: 2046434580}
   m_Father: {fileID: 2113668869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &154677422
@@ -4957,9 +4958,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: "Que cor \xE9 o c\xE9u?"
-  alternativa1: Azul
-  alternativa2: Verde
+  pergunta: O que a trigonometria estuda?
+  alternativa1: "Tri\xE2ngulos"
+  alternativa2: "Fra\xE7\xF5es"
   respostaCorreta: 0
 --- !u!1001 &263650758
 PrefabInstance:
@@ -5884,10 +5885,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: "Qual \xE9 a capital do Brasil"
-  alternativa1: "S\xE3o Paulo"
-  alternativa2: Brasilia
-  respostaCorreta: 1
+  pergunta: "Todo tri\xE2ngulo ret\xE2ngulo tem um \xE2ngulo de 90\xB0."
+  alternativa1: VERDADEIRO
+  alternativa2: FALSO
+  respostaCorreta: 0
 --- !u!58 &342263578
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6555,10 +6556,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: "Qual \xE9 a capital do Brasil"
-  alternativa1: "S\xE3o Paulo"
-  alternativa2: Brasilia
-  respostaCorreta: 1
+  pergunta: "A hipotenusa fica em frente ao \xE2ngulo reto."
+  alternativa1: VERDADEIRO
+  alternativa2: FALSO
+  respostaCorreta: 0
 --- !u!58 &384587572
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9868,7 +9869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -403.01, y: 237.39}
+  m_AnchoredPosition: {x: -379.67, y: 201.99998}
   m_SizeDelta: {x: 32.3252, y: 29.224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &742793834
@@ -14924,7 +14925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.039215688}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15898,9 +15899,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: "Qual \xE9 a capital do Brasil"
-  alternativa1: "S\xE3o Paulo"
-  alternativa2: Brasilia
+  pergunta: "Qual \xE9 o maior lado do tri\xE2ngulo ret\xE2ngulo?"
+  alternativa1: Cateto
+  alternativa2: Hipotenusa
   respostaCorreta: 1
 --- !u!1001 &1174205674
 PrefabInstance:
@@ -16019,8 +16020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -124.99999, y: 34.131004}
-  m_SizeDelta: {x: 161.1693, y: 68.262}
+  m_AnchoredPosition: {x: 120.57386, y: -49.999992}
+  m_SizeDelta: {x: 194.317, y: 68.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178491024
 MonoBehaviour:
@@ -16555,7 +16556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -403.01, y: 237.39}
+  m_AnchoredPosition: {x: -379.67, y: 201.99998}
   m_SizeDelta: {x: 32.3252, y: 29.224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211113498
@@ -19135,7 +19136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -435.34, y: 237.39}
+  m_AnchoredPosition: {x: -412, y: 202}
   m_SizeDelta: {x: 32.3252, y: 29.224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399713431
@@ -24193,8 +24194,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 391, y: 227}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 307.4037, y: 188}
+  m_SizeDelta: {x: 213.627, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729077406
 MonoBehaviour:
@@ -24218,15 +24219,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Pontos: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 987a05904af02cb4a99ed098b17796c5, type: 2}
+  m_sharedMaterial: {fileID: -8316476948821240386, guid: 987a05904af02cb4a99ed098b17796c5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -24281,7 +24282,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -49.55256, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -25118,8 +25119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335, y: 34.131}
-  m_SizeDelta: {x: 164.6772, y: 68.262}
+  m_AnchoredPosition: {x: -124.64554, y: -50}
+  m_SizeDelta: {x: 201.9683, y: 68.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793201982
 MonoBehaviour:
@@ -25665,9 +25666,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48416abc34e39b842afc88ba9fad93c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pergunta: "Qual \xE9 a capital do Brasil"
-  alternativa1: "S\xE3o Paulo"
-  alternativa2: Brasilia
+  pergunta: "Seno \xE9:"
+  alternativa1: Adjacente / Oposto
+  alternativa2: Oposto / Hipotenusa
   respostaCorreta: 1
 --- !u!58 &1854263387
 CircleCollider2D:
@@ -27139,8 +27140,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Quanto \xE9 2 + 2?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 987a05904af02cb4a99ed098b17796c5, type: 2}
+  m_sharedMaterial: {fileID: -8316476948821240386, guid: 987a05904af02cb4a99ed098b17796c5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27202,7 +27203,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -83.87811, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -27232,7 +27233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146.81378, y: 147.36642}
+  m_AnchoredPosition: {x: -35, y: 104}
   m_SizeDelta: {x: 556.3725, y: 53.2671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1993162491
@@ -27946,11 +27947,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2046434580}
   - component: {fileID: 2046434579}
-  - component: {fileID: 2046434582}
-  - component: {fileID: 2046434581}
   m_Layer: 0
   m_Name: "Ch\xE3o"
-  m_TagString: Chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28018,86 +28017,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046434578}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.6297, y: -1.89, z: 0}
-  m_LocalScale: {x: 7.3237047, y: 7.8988338, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.036245327, y: -2.6464114, z: 10}
+  m_LocalScale: {x: 13.266774, y: 14.30861, z: 1.811484}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 154677421}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &2046434581
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046434578}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &2046434582
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046434578}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.0019426346, y: -0.4759535}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.417778, y: 1.7712785}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.4488587, y: 0.8444335}
-  m_EdgeRadius: 0
 --- !u!1001 &2055352987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28537,7 +28463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370.68, y: 237.39}
+  m_AnchoredPosition: {x: -347.34, y: 201.99998}
   m_SizeDelta: {x: 32.3252, y: 29.224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073451067
@@ -29106,7 +29032,7 @@ Transform:
   m_GameObject: {fileID: 2113668864}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.76, y: 0.77, z: 0}
+  m_LocalPosition: {x: -22.99, y: 6.65, z: 0}
   m_LocalScale: {x: 1.4144876, y: 1.4144876, z: 1.4144876}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29626,7 +29552,6 @@ SceneRoots:
   - {fileID: 1687479975}
   - {fileID: 1775002705}
   - {fileID: 845917719}
-  - {fileID: 2046434580}
   - {fileID: 2041279478}
   - {fileID: 474699694}
   - {fileID: 279803520}
